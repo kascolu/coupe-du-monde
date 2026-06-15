@@ -1,0 +1,31 @@
+{
+  "name": "FIFA World Cup 2026 — Live Tracker",
+  "short_name": "WC2026",
+  "description": "Suivi en temps réel Coupe du Monde 2026 — Scores · Classements · Buteurs",
+  "start_url": "./coupe_du_monde_2026_tf1.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0d1b2a",
+  "theme_color": "#0d1b2a",
+  "orientation": "any",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "sports",
+    "entertainment"
+  ],
+  "prefer_related_applications": false
+}
