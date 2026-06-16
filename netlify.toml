@@ -1,0 +1,15 @@
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Access-Control-Allow-Origin = "*"
+
+# Sync automatique toutes les 15 minutes via Netlify Scheduled Functions
+# Nécessite le plan Netlify Pro — sur le plan gratuit, utiliser le bouton manuel dans l'app
+[[plugins]]
+  package = "@netlify/plugin-functions-install-core"
